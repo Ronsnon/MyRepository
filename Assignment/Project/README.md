@@ -65,9 +65,9 @@ Hyperparameters were tuned using grid search and k-fold cross-validation. Evalua
 | Artificial Neural Net   | 0.72     | 0.72        | 0.45   | 0.72      | 0.72   | 0.72     | 0.80 |
 | Random Forest           | 0.95     | 0.94        | 0.90   | 0.95      | 0.95   | 0.95     | 0.99 |
 
-![[Pasted image 20250526220636.png]]
+![[images/metric.png]]
 
-![[Pasted image 20250526220651.png]]
+![[images/comparison.png]]
 
 Among all models tested:
 
