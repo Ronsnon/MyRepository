@@ -33,7 +33,7 @@ We used a publicly available dataset of bank customers, which includes informati
 
 Preprocessing steps included missing value handling, feature encoding, normalization, and splitting the dataset into training and testing sets.
 
-Source: [(https://www.kaggle.com/datasets/shubh0799/churn-modelling)]([Churn Modelling](https://www.kaggle.com/datasets/shubh0799/churn-modelling))
+Source: <https://www.kaggle.com/datasets/shubh0799/churn-modelling>
 
 ---
 ## Methodology
