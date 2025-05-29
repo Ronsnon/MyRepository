@@ -1,6 +1,4 @@
 ## **Bank Customer Churn Prediction and Analysis**
-**Author**  
-Jun Yang
 
 ---
 ## Abstract
@@ -114,9 +112,9 @@ Among all models tested:
 ---
 ## Next Steps
 
-- **Deploy** the AdaBoost model in a real-time bank environment.
-- **Automate model retraining** using updated customer data.
-- **Monitor performance** over time and continuously refine based on feedback.
+- Deploy the AdaBoost model in a real-time bank environment.
+- Automate model retraining using updated customer data.
+- Monitor performance over time and continuously refine based on feedback.
 
 ---
 ## Conclusion
