@@ -44,7 +44,7 @@ Source: <https://www.kaggle.com/datasets/shubh0799/churn-modelling>
     - Outlier detection and removal using the IQR method.
     - Feature selection and engineering.
 
-2. **Model Development**:
+2. **Model Prediction**:
 
     - Logistic Regression
 	- ID3, C4.5, and CART Decision Trees
@@ -57,6 +57,9 @@ Source: <https://www.kaggle.com/datasets/shubh0799/churn-modelling>
 	- Hyperparameter tuning: Grid search.
 	- Cross-validation: 5-fold cross-validation.
     - Metrics: Accuracy, Cross-Validation Accuracy, Cohen’s Kappa, Precision, Recall, F1-Score, Confusion Matrix, ROC-AUC and Learning Curves.
+##### Flow Chart
+
+![[workflow 1.png]]
 
 ---
 ## Model Performance
