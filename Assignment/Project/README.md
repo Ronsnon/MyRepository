@@ -39,35 +39,45 @@ Source: <https://www.kaggle.com/datasets/shubh0799/churn-modelling>
 ---
 ## Methodology
 
-We employed a supervised classification approach. The dataset was split into training and testing sets. Multiple machine learning algorithms were implemented:
+1. **Data Preprocessing**:
 
-- Logistic Regression
-- ID3, C4.5, and CART Decision Trees
-- Gaussian and Bernoulli Naive Bayes
-- Random Forest
-- AdaBoost
-- Artificial Neural Networks
+    - Handling class imbalance by oversampling the minority class.
+    - Label encoding for categorical features.
+    - Outlier detection and removal using the IQR method.
+    - Feature selection and engineering.
 
-Hyperparameters were tuned using grid search and k-fold cross-validation. Evaluation was conducted using Accuracy, Cross-Validation Accuracy, Cohen’s Kappa, Precision, Recall, F1-Score, and AUC.
+2. **Model Development**:
+
+    - Logistic Regression
+	- ID3, C4.5, and CART Decision Trees
+	- Gaussian and Bernoulli Naive Bayes
+	- Random Forest
+	- AdaBoost
+	- Artificial Neural Network
+
+3. **Evaluation**:
+	- Hyperparameter tuning: Grid search.
+	- Cross-validation: 5-fold cross-validation.
+    - Metrics: Accuracy, Cross-Validation Accuracy, Cohen’s Kappa, Precision, Recall, F1-Score, Confusion Matrix, ROC-AUC and Learning Curves.
 
 ---
 ## Model Performance
 
-| Model                   | Accuracy | CV Accuracy | Kappa | Precision | Recall | F1-Score | AUC  |
-|------------------------|----------|-------------|--------|-----------|--------|----------|------|
-| Logistic Regression     | 0.72     | 0.71        | 0.44   | 0.72      | 0.72   | 0.72     | 0.79 |
-| ID3 Decision Tree       | 0.90     | 0.89        | 0.80   | 0.91      | 0.90   | 0.90     | 0.90 |
-| C4.5 Decision Tree      | 0.74     | 0.73        | 0.47   | 0.76      | 0.74   | 0.73     | 0.81 |
-| CART Decision Tree      | 0.90     | 0.88        | 0.80   | 0.91      | 0.90   | 0.90     | 0.90 |
-| Gaussian Naive Bayes    | 0.73     | 0.74        | 0.47   | 0.73      | 0.73   | 0.73     | 0.81 |
-| Bernoulli Naive Bayes   | 0.72     | 0.72        | 0.44   | 0.72      | 0.72   | 0.72     | 0.78 |
-| AdaBoost                | 0.97     | 0.97        | 0.94   | 0.97      | 0.97   | 0.97     | 0.99 |
-| Artificial Neural Net   | 0.72     | 0.72        | 0.45   | 0.72      | 0.72   | 0.72     | 0.80 |
-| Random Forest           | 0.95     | 0.94        | 0.90   | 0.95      | 0.95   | 0.95     | 0.99 |
+| Model                 | Accuracy | CV Accuracy | Kappa | Precision | Recall | F1-Score | AUC  |
+| --------------------- | -------- | ----------- | ----- | --------- | ------ | -------- | ---- |
+| Logistic Regression   | 0.72     | 0.71        | 0.44  | 0.72      | 0.72   | 0.72     | 0.79 |
+| ID3 Decision Tree     | 0.90     | 0.89        | 0.80  | 0.91      | 0.90   | 0.90     | 0.90 |
+| C4.5 Decision Tree    | 0.74     | 0.73        | 0.47  | 0.76      | 0.74   | 0.73     | 0.81 |
+| CART Decision Tree    | 0.90     | 0.88        | 0.80  | 0.91      | 0.90   | 0.90     | 0.90 |
+| Gaussian Naive Bayes  | 0.73     | 0.74        | 0.47  | 0.73      | 0.73   | 0.73     | 0.81 |
+| Bernoulli Naive Bayes | 0.72     | 0.72        | 0.44  | 0.72      | 0.72   | 0.72     | 0.78 |
+| AdaBoost              | 0.97     | 0.97        | 0.94  | 0.97      | 0.97   | 0.97     | 0.99 |
+| Artificial Neural Net | 0.72     | 0.72        | 0.45  | 0.72      | 0.72   | 0.72     | 0.80 |
+| Random Forest         | 0.95     | 0.94        | 0.90  | 0.95      | 0.95   | 0.95     | 0.99 |
 
-![](https://github.com/Ronsnon/MyRepository/blob/main/Assignment/Project/images/metric.png?raw=true)
+![[images/metric.png]]
 
-![](https://github.com/Ronsnon/MyRepository/blob/main/Assignment/Project/images/comparison.png?raw=true)
+![[images/comparison.png]]
 
 Among all models tested:
 
@@ -93,7 +103,6 @@ Among all models tested:
 4. **Random Forest offers a strong balance** between performance and interpretability.
 5. **Simple linear models underperform**, likely due to the complex relationships in the data.
 
-
 ---
 ## Potential Improvements
 
@@ -113,3 +122,14 @@ Among all models tested:
 ## Conclusion
 
 This project successfully demonstrates the viability of using machine learning models to predict customer churn in the banking sector. Ensemble models like AdaBoost provide outstanding predictive performance, enabling banks to identify at-risk customers with high confidence. While the results are promising, future enhancements and real-world integration are essential for sustainable impact. Care must also be taken to ensure fairness and transparency in automated decision-making.
+
+---
+## Bibliography
+
+- \[1]  Introduction to Data Mining, Tan P.-N., et al, 2023, Pearson
+- \[2] Mining of  Massive Datasets, Anand  Rajaraman, Jure Leskovec, Jeffrey D. Ullman, 2019, Cambridge University Press
+
+---
+## Contact and Further Information
+
+ For questions , please contact: [yangjun0827@hotmail.com](mailto:yangjun0827@hotmail.com)
