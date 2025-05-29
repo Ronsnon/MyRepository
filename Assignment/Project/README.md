@@ -73,7 +73,7 @@ Source: <https://www.kaggle.com/datasets/shubh0799/churn-modelling>
 | Artificial Neural Net | 0.72     | 0.72        | 0.45  | 0.72      | 0.72   | 0.72     | 0.80 |
 | Random Forest         | 0.95     | 0.94        | 0.90  | 0.95      | 0.95   | 0.95     | 0.99 |
 
-![[images/metric.png]]
+![https://github.com/Ronsnon/MyRepository/blob/main/Assignment/Project/images/metric.png?raw=true]
 
 ![[images/comparison.png]]
 
