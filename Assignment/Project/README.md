@@ -59,7 +59,7 @@ Source: <https://www.kaggle.com/datasets/shubh0799/churn-modelling>
     - Metrics: Accuracy, Cross-Validation Accuracy, Cohen’s Kappa, Precision, Recall, F1-Score, Confusion Matrix, ROC-AUC and Learning Curves.
 ##### Flow Chart
 
-![[workflow 1.png]]
+![](https://github.com/Ronsnon/MyRepository/blob/main/Assignment/Project/images/workflow.png?raw=true)
 
 ---
 ## Model Performance
